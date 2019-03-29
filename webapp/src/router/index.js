@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Head from '@/components/head/Head'
+import Home from '@/components/home/Home'
 
 Vue.use(Router)
 
@@ -17,11 +18,11 @@ export default new Router({
       }
     },
     {
-      path: '/head',
-      name: 'Head',
-      component: Head,
+      path: '/home',
+      name: 'Home',
+      component: Home,
       meta:{
-        title: '头部',
+        title: '首页',
       }
     }
   ]

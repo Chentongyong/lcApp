@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <router-link to="/head"> go to head</router-link>
+    <router-link to="/home"> go to home</router-link>
     <h4>{{ msg }}</h4>
     <div>
       {{ count }}
